@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #2ecc71;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#game {
+  display: flex;
+  margin: 10px;
+  padding: 14px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+button {
+  white-space: break-spaces;
+  width: 49%;
+  height: 6vh;
+}
+line {
+  display: flex;
+}
+.item {
+  width: 70px;
+  height: 70px;
+  border: gray solid 4px;
+  text-align: center;
+  background-color: #e91e63;
+}
+.clicked {
+  background-color: gray;
+  text-align: center;
+  display: grid;
+  justify-items: stretch;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  font-size: 3em;
+  color: brown;
+  font-family: fantasy;
+  letter-spacing: 15px;
+  cursor: pointer;
+}
+h1:hover {
+  background: #f69a11;
+}
+#item_4_0,
+#item_2_1,
+#item_2_0,
+#item_4_1 {
+  color: #f69a11;
+  font-family: cursive;
+  font-size: 2em;
+}
+#item_0_1,
+#item_1_1,
+#item_2_2,
+#item_3_2,
+#item_3_3,
+#item_4_2,
+#item_2_3,
+#item_3_4,
+#item_1_4,
+#item_1_3,
+#item_1_0 {
+  color: #cf1e4e;
+  font-size: 2em;
+  font-family: cursive;
+}
